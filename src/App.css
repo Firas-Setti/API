@@ -1,0 +1,23 @@
+.user{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 45px;
+  box-shadow: 0 4px 8px 0 rgba(48, 43, 43, 0.2);
+  transition: 0.3s;
+  padding: 4px 20px;
+  margin: 20px;
+}
+.navbar {
+  background-color: rgb(180, 131, 172);
+  color: white;
+  position: relative;
+}
+
+.container{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
